@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class SelectedShip : MonoBehaviour
 {
-    public GameObject ship01;
-    public GameObject ship02;
+    public GameObject ship001;
+    public GameObject ship002;
 
     void Start()
     {
         if (PlayerPrefs.GetInt("ShipType") == 1)
         {
-            ship01.SetActive(true);
+            ship001.SetActive(true);
         }
         else if (PlayerPrefs.GetInt("ShipType") == 2)
         {
-            ship02.SetActive(true);
+            ship002.SetActive(true);
         }
     }
 
