@@ -7,7 +7,6 @@ public class SelectedShip : MonoBehaviour
     public GameObject ship01;
     public GameObject ship02;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (PlayerPrefs.GetInt("ShipType") == 1)
